@@ -8,5 +8,7 @@
   "designated_final": true,
   "submission_sha256": "34e25bf445c42680f4031e7a5a392d94f0ca3fb7400abce2d0adf343621220f1",
   "evidence": "evidence/kaggle_private_score.png",
-  "source": "Student-provided screenshot, received 2026-10-24; visually read by Codex. No independent authenticated API retrieval. Submission reference not visible in screenshot."
+  "source": "Student-provided screenshot, received 2026-10-24; visually read by Codex. No independent authenticated API retrieval. Submission reference not visible in screenshot.",
+  "method": "RRF: 50% personal frequency + 50% global popularity",
+  "selection_note": "Designated final: private 0.31291 exceeds the later recency/context private 0.31276. Selection uses returned private score, not public score or frozen rank."
 }

@@ -1,0 +1,11 @@
+{
+  "account": "khamzatiusupov",
+  "submission_file": "submission_khamzat.csv",
+  "private_score": 0.31276,
+  "public_score": 0.33163,
+  "status": "Complete (after deadline)",
+  "designated_final": false,
+  "submission_sha256": "a66f8345031e45f3b7bc3ca78faba12c62308202f5351e10b39c0feda73e9171",
+  "evidence": "evidence/kaggle_v2_score.png",
+  "source": "Student-provided original screenshot received 2026-10-24, visually read. No authenticated API retrieval."
+}

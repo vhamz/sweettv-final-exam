@@ -6,7 +6,7 @@ Khamzat Yusupov (Юсупов Хамзат), Kaggle `khamzatiusupov`.
 
 `submission_final.csv` is the original submitted 50/50 personal-frequency/global-popularity RRF model. The student supplied its completed Kaggle screenshot: **private 0.31291**, public 0.32185. Evidence and the exact file digest are under `evidence/`. This is a returned score, not a frozen-leaderboard rank. There was no authenticated API retrieval by the agent.
 
-`submission_khamzat.csv` is a subsequent, locally selected recency/channel-context candidate. It uses the same original hold-out. Its score is **not yet known** unless a later evidence record explicitly documents one. Do not confuse its local score with a Kaggle score.
+`submission_khamzat.csv` is a subsequent, locally selected recency/channel-context candidate. It uses the same original hold-out. Its returned private score is **0.31276**, public **0.33163**, documented in `evidence/kaggle_v2_score.png`. This is lower than the original private 0.31291, despite higher local and public scores. Therefore the first submission remains the designated final. The file was renamed by the student from `submission_candidate_v2.csv` without changing its bytes; its recorded SHA-256 matches.
 
 ## Reproduce
 
