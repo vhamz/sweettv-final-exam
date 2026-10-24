@@ -1,0 +1,9 @@
+__pycache__/
+artifacts/interactions_*.csv
+artifacts/metadata_*.json
+artifacts/features_*.json
+*.jsonl
+.DS_Store
+output/
+artifacts/context_*.csv
+artifacts/availability_*.json

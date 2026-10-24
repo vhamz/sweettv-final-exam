@@ -1,0 +1,11 @@
+{
+  "decay_pairs_checked": 1277134,
+  "monotone_decay_le_event_counts": true,
+  "same_users": true,
+  "conditional_bootstrap_delta_vs_v1": 0.02189406099518459,
+  "conditional_ci95": [
+    0.012318418940609952,
+    0.031289794007490636
+  ],
+  "trials": 37
+}

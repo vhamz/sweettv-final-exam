@@ -1,0 +1,242 @@
+{
+  "train_pairs_checked": 712133,
+  "validation_pairs_checked": 565001,
+  "interval_views_checked": 240,
+  "interval_matches_equal": true,
+  "implicit_als_max_parameter_error": 6.661338147750939e-16,
+  "manual_ap": [
+    {
+      "user": "13571199046623737884",
+      "method": "popularity",
+      "hits": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "precision_terms": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "denominator": 5,
+      "ap5": 1.0
+    },
+    {
+      "user": "13571199046623737884",
+      "method": "content",
+      "hits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "precision_terms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "denominator": 5,
+      "ap5": 0.0
+    },
+    {
+      "user": "13571199046623737884",
+      "method": "history",
+      "hits": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "precision_terms": [
+        1.0,
+        0.0,
+        0.6666666666666666,
+        0.75,
+        0.8
+      ],
+      "denominator": 5,
+      "ap5": 0.6433333333333333
+    },
+    {
+      "user": "13571199046623737884",
+      "method": "mf",
+      "hits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "precision_terms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "denominator": 5,
+      "ap5": 0.0
+    },
+    {
+      "user": "13571199046623737884",
+      "method": "fusion",
+      "hits": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "precision_terms": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "denominator": 5,
+      "ap5": 1.0
+    },
+    {
+      "user": "8150816946177670084",
+      "method": "popularity",
+      "hits": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "precision_terms": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "denominator": 5,
+      "ap5": 0.1
+    },
+    {
+      "user": "8150816946177670084",
+      "method": "content",
+      "hits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "precision_terms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "denominator": 5,
+      "ap5": 0.0
+    },
+    {
+      "user": "8150816946177670084",
+      "method": "history",
+      "hits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "precision_terms": [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      "denominator": 5,
+      "ap5": 0.06666666666666667
+    },
+    {
+      "user": "8150816946177670084",
+      "method": "mf",
+      "hits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "precision_terms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "denominator": 5,
+      "ap5": 0.0
+    },
+    {
+      "user": "8150816946177670084",
+      "method": "fusion",
+      "hits": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "precision_terms": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "denominator": 5,
+      "ap5": 0.1
+    }
+  ],
+  "paired_bootstrap_vs_popularity": {
+    "content": {
+      "delta": -0.5926832530765115,
+      "ci95": [
+        -0.6104127875869448,
+        -0.5749351257356875
+      ]
+    },
+    "mf": {
+      "delta": -0.560155163188871,
+      "ci95": [
+        -0.5821791733547352,
+        -0.5386052701979668
+      ]
+    },
+    "history": {
+      "delta": -0.002030497592295343,
+      "ci95": [
+        -0.01652247191011236,
+        0.0120798555377207
+      ]
+    },
+    "fusion": {
+      "delta": 0.03347779561262707,
+      "ci95": [
+        0.0256123595505618,
+        0.041772003745318344
+      ]
+    }
+  },
+  "seconds": 13.099959792,
+  "submission_verified": true,
+  "sha256": "34e25bf445c42680f4031e7a5a392d94f0ca3fb7400abce2d0adf343621220f1"
+}

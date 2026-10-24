@@ -1,0 +1,201 @@
+{
+  "11-20": {
+    "rows": 1074235,
+    "labelled_rows": 115613,
+    "duplicate_labelled_rows": 0,
+    "items": 5847,
+    "start": 1583708400,
+    "end": 1589803200,
+    "channels": 177
+  },
+  "21-30": {
+    "rows": 1074394,
+    "labelled_rows": 121505,
+    "duplicate_labelled_rows": 0,
+    "items": 6363,
+    "start": 1589760000,
+    "end": 1595851200,
+    "channels": 188
+  },
+  "31-42": {
+    "rows": 1295378,
+    "labelled_rows": 144774,
+    "duplicate_labelled_rows": 0,
+    "items": 6636,
+    "start": 1595808000,
+    "end": 1603108800,
+    "channels": 191
+  },
+  "train": {
+    "users_with_log": 4876,
+    "users_with_interactions": 4837,
+    "pairs": 712133
+  },
+  "validation": {
+    "users_with_log": 4820,
+    "users_with_interactions": 4804,
+    "pairs": 565001
+  },
+  "submission": {
+    "rows": 1260,
+    "unique_users": 1260,
+    "cold_early": 10,
+    "cold_final": 2
+  },
+  "views": {
+    "view_rows": 5821987,
+    "qualified_matches_0": 1893051,
+    "views_with_labelled_match": 2347521,
+    "duration_mismatch": 117,
+    "qualified_matches_1": 1203062
+  },
+  "view_duration_seconds": {
+    "min": 61.0,
+    "p25": 133.0,
+    "median": 396.0,
+    "p75": 1452.0,
+    "p95": 6344.0,
+    "p99": 14079.139999999665,
+    "max": 342145.0
+  },
+  "join_examples": [
+    {
+      "window": 0,
+      "user_id": "7981779138282146703",
+      "channel": 1495,
+      "view_start": 1583714450,
+      "view_stop": 1583720935,
+      "airing_start": 1583716560,
+      "airing_end": 1583717940,
+      "item": 12001732,
+      "overlap": 1380
+    },
+    {
+      "window": 0,
+      "user_id": "7981779138282146703",
+      "channel": 1495,
+      "view_start": 1583714450,
+      "view_stop": 1583720935,
+      "airing_start": 1583719260,
+      "airing_end": 1583719920,
+      "item": 12002856,
+      "overlap": 660
+    },
+    {
+      "window": 0,
+      "user_id": "7981779138282146703",
+      "channel": 1495,
+      "view_start": 1583714450,
+      "view_stop": 1583720935,
+      "airing_start": 1583719920,
+      "airing_end": 1583720640,
+      "item": 12002856,
+      "overlap": 720
+    },
+    {
+      "window": 0,
+      "user_id": "7981779138282146703",
+      "channel": 1495,
+      "view_start": 1583714450,
+      "view_stop": 1583720935,
+      "airing_start": 1583720640,
+      "airing_end": 1583722020,
+      "item": 12001682,
+      "overlap": 295
+    },
+    {
+      "window": 0,
+      "user_id": "16750567095026044641",
+      "channel": 108,
+      "view_start": 1583720209,
+      "view_stop": 1583730372,
+      "airing_start": 1583730000,
+      "airing_end": 1583736600,
+      "item": 2400508,
+      "overlap": 372
+    },
+    {
+      "window": 0,
+      "user_id": "4162077581397098516",
+      "channel": 1495,
+      "view_start": 1583720644,
+      "view_stop": 1583720936,
+      "airing_start": 1583720640,
+      "airing_end": 1583722020,
+      "item": 12001682,
+      "overlap": 292
+    },
+    {
+      "window": 0,
+      "user_id": "6295006578663440482",
+      "channel": 108,
+      "view_start": 1583720761,
+      "view_stop": 1583730178,
+      "airing_start": 1583730000,
+      "airing_end": 1583736600,
+      "item": 2400508,
+      "overlap": 178
+    },
+    {
+      "window": 0,
+      "user_id": "245033728947691708",
+      "channel": 6,
+      "view_start": 1583721393,
+      "view_stop": 1583724504,
+      "airing_start": 1583724000,
+      "airing_end": 1583730900,
+      "item": 5200464,
+      "overlap": 504
+    },
+    {
+      "window": 0,
+      "user_id": "16732082036693231547",
+      "channel": 6,
+      "view_start": 1583723744,
+      "view_stop": 1583732022,
+      "airing_start": 1583724000,
+      "airing_end": 1583730900,
+      "item": 5200464,
+      "overlap": 6900
+    },
+    {
+      "window": 0,
+      "user_id": "16732082036693231547",
+      "channel": 6,
+      "view_start": 1583723744,
+      "view_stop": 1583732022,
+      "airing_start": 1583730900,
+      "airing_end": 1583734800,
+      "item": 10002893,
+      "overlap": 1122
+    },
+    {
+      "window": 0,
+      "user_id": "12064862736733875748",
+      "channel": 6,
+      "view_start": 1583723794,
+      "view_stop": 1583724331,
+      "airing_start": 1583724000,
+      "airing_end": 1583730900,
+      "item": 5200464,
+      "overlap": 331
+    },
+    {
+      "window": 0,
+      "user_id": "6075271130876439659",
+      "channel": 6,
+      "view_start": 1583723956,
+      "view_stop": 1583724294,
+      "airing_start": 1583724000,
+      "airing_end": 1583730900,
+      "item": 5200464,
+      "overlap": 294
+    }
+  ],
+  "boundaries": {
+    "training_start": 1583708400,
+    "validation_start": 1589760000,
+    "test_start": 1595808000
+  },
+  "seconds": 53.462818291
+}

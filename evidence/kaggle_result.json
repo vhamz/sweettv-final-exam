@@ -1,0 +1,12 @@
+{
+  "account": "khamzatiusupov",
+  "student": "Юсупов Хамзат",
+  "submission_file": "submission_final.csv",
+  "private_score": 0.31291,
+  "public_score": 0.32185,
+  "status": "Complete (after deadline)",
+  "designated_final": true,
+  "submission_sha256": "34e25bf445c42680f4031e7a5a392d94f0ca3fb7400abce2d0adf343621220f1",
+  "evidence": "evidence/kaggle_private_score.png",
+  "source": "Student-provided screenshot, received 2026-10-24; visually read by Codex. No independent authenticated API retrieval. Submission reference not visible in screenshot."
+}

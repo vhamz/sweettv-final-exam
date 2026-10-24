@@ -1,0 +1,22 @@
+{
+  "selected": {
+    "method": "fusion",
+    "als_config": {
+      "factors": 32,
+      "alpha": 20.0,
+      "reg": 0.1,
+      "epochs": 12
+    },
+    "fusion_weights": {
+      "mf": 0,
+      "history": 0.5,
+      "content": 0,
+      "popularity": 0.5
+    }
+  },
+  "rows": 1260,
+  "cold_start": 2,
+  "candidates": 6636,
+  "seconds": 10.802267958000002,
+  "submission_sha256": "34e25bf445c42680f4031e7a5a392d94f0ca3fb7400abce2d0adf343621220f1"
+}
